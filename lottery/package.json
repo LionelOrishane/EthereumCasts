@@ -4,15 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ganache-cli": "^6.0.3",
+    "ganache-cli": "^6.1.0",
     "mocha": "^4.0.1",
-    "solc": "^0.4.19",
-    "truffle-hdwallet-provider": "0.0.3",
-    "web3": "^1.0.0-beta.26"
-  }
+    "solc": "^0.5.11",
+    "truffle-hdwallet-provider": "1.0.0",
+    "web3": "^1.6.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
