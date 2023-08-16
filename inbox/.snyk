@@ -1,0 +1,44 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - web3 > web3-eth > web3-net > web3-utils > eth-lib > servify > request > extend:
+        patched: '2023-08-16T15:28:12.853Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          web3 > web3-eth > web3-net > web3-utils > eth-lib > servify > request
+          > extend
+  'npm:hoek:20180212':
+    - web3 > web3-eth > web3-net > web3-utils > eth-lib > servify > request > hawk > hoek:
+        patched: '2023-08-16T15:28:12.853Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          web3 > web3-eth > web3-net > web3-utils > eth-lib > servify > request
+          > hawk > hoek
+    - web3 > web3-eth > web3-net > web3-utils > eth-lib > servify > request > hawk > boom > hoek:
+        patched: '2023-08-16T15:28:12.853Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          web3 > web3-eth > web3-net > web3-utils > eth-lib > servify > request
+          > hawk > boom > hoek
+    - web3 > web3-eth > web3-net > web3-utils > eth-lib > servify > request > hawk > sntp > hoek:
+        patched: '2023-08-16T15:28:12.853Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          web3 > web3-eth > web3-net > web3-utils > eth-lib > servify > request
+          > hawk > sntp > hoek
+    - web3 > web3-eth > web3-net > web3-utils > eth-lib > servify > request > hawk > cryptiles > boom > hoek:
+        patched: '2023-08-16T15:28:12.853Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          web3 > web3-eth > web3-net > web3-utils > eth-lib > servify > request
+          > hawk > cryptiles > boom > hoek
+  'npm:stringstream:20180511':
+    - web3 > web3-eth > web3-net > web3-utils > eth-lib > servify > request > stringstream:
+        patched: '2023-08-16T15:28:12.853Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          web3 > web3-eth > web3-net > web3-utils > eth-lib > servify > request
+          > stringstream
