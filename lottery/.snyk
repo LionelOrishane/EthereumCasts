@@ -1,0 +1,295 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block > ethereumjs-util > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block >
+          ethereumjs-util > babel-preset-es2015 >
+          babel-plugin-transform-es2015-block-scoping > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block > ethereumjs-util > babelify > babel-core > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block >
+          ethereumjs-util > babelify > babel-core > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-tx > ethereumjs-util > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-types > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-tx >
+          ethereumjs-util > babel-preset-es2015 >
+          babel-plugin-transform-es2015-block-scoping > babel-types > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block > ethereumjs-util > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-types > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block >
+          ethereumjs-util > babel-preset-es2015 >
+          babel-plugin-transform-es2015-block-scoping > babel-types > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-tx > ethereumjs-util > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-tx >
+          ethereumjs-util > babel-preset-es2015 >
+          babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block > ethereumjs-util > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block >
+          ethereumjs-util > babel-preset-es2015 >
+          babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-tx > ethereumjs-util > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-template > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-tx >
+          ethereumjs-util > babel-preset-es2015 >
+          babel-plugin-transform-es2015-block-scoping > babel-template > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block > ethereumjs-util > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-template > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block >
+          ethereumjs-util > babel-preset-es2015 >
+          babel-plugin-transform-es2015-block-scoping > babel-template > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block > merkle-patricia-tree > ethereumjs-util > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block >
+          merkle-patricia-tree > ethereumjs-util > babel-preset-es2015 >
+          babel-plugin-transform-es2015-block-scoping > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm > ethereumjs-block > ethereumjs-util > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm >
+          ethereumjs-block > ethereumjs-util > babel-preset-es2015 >
+          babel-plugin-transform-es2015-block-scoping > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block > ethereumjs-util > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block >
+          ethereumjs-util > babel-preset-es2015 >
+          babel-plugin-transform-es2015-classes > babel-helper-define-map >
+          lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-tx > ethereumjs-util > babel-preset-es2015 > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-tx >
+          ethereumjs-util > babel-preset-es2015 >
+          babel-plugin-transform-es2015-sticky-regex > babel-helper-regex >
+          lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block > ethereumjs-util > babel-preset-es2015 > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block >
+          ethereumjs-util > babel-preset-es2015 >
+          babel-plugin-transform-es2015-sticky-regex > babel-helper-regex >
+          lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block > ethereumjs-util > babelify > babel-core > babel-generator > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block >
+          ethereumjs-util > babelify > babel-core > babel-generator > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block > merkle-patricia-tree > ethereumjs-util > babelify > babel-core > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block >
+          merkle-patricia-tree > ethereumjs-util > babelify > babel-core >
+          lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm > ethereumjs-block > ethereumjs-util > babelify > babel-core > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm >
+          ethereumjs-block > ethereumjs-util > babelify > babel-core > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block > ethereumjs-util > babelify > babel-core > babel-register > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block >
+          ethereumjs-util > babelify > babel-core > babel-register > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block > merkle-patricia-tree > ethereumjs-util > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-types > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block >
+          merkle-patricia-tree > ethereumjs-util > babel-preset-es2015 >
+          babel-plugin-transform-es2015-block-scoping > babel-types > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm > ethereumjs-block > ethereumjs-util > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-types > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm >
+          ethereumjs-block > ethereumjs-util > babel-preset-es2015 >
+          babel-plugin-transform-es2015-block-scoping > babel-types > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block > merkle-patricia-tree > ethereumjs-util > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block >
+          merkle-patricia-tree > ethereumjs-util > babel-preset-es2015 >
+          babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm > ethereumjs-block > ethereumjs-util > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm >
+          ethereumjs-block > ethereumjs-util > babel-preset-es2015 >
+          babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block > merkle-patricia-tree > ethereumjs-util > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-template > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block >
+          merkle-patricia-tree > ethereumjs-util > babel-preset-es2015 >
+          babel-plugin-transform-es2015-block-scoping > babel-template > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm > ethereumjs-block > ethereumjs-util > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-template > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm >
+          ethereumjs-block > ethereumjs-util > babel-preset-es2015 >
+          babel-plugin-transform-es2015-block-scoping > babel-template > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm > ethereumjs-block > ethereumjs-tx > ethereumjs-util > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm >
+          ethereumjs-block > ethereumjs-tx > ethereumjs-util >
+          babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping >
+          lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block > merkle-patricia-tree > ethereumjs-util > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block >
+          merkle-patricia-tree > ethereumjs-util > babel-preset-es2015 >
+          babel-plugin-transform-es2015-classes > babel-helper-define-map >
+          lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm > ethereumjs-block > ethereumjs-util > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm >
+          ethereumjs-block > ethereumjs-util > babel-preset-es2015 >
+          babel-plugin-transform-es2015-classes > babel-helper-define-map >
+          lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block > merkle-patricia-tree > ethereumjs-util > babel-preset-es2015 > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block >
+          merkle-patricia-tree > ethereumjs-util > babel-preset-es2015 >
+          babel-plugin-transform-es2015-sticky-regex > babel-helper-regex >
+          lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm > ethereumjs-block > ethereumjs-util > babel-preset-es2015 > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm >
+          ethereumjs-block > ethereumjs-util > babel-preset-es2015 >
+          babel-plugin-transform-es2015-sticky-regex > babel-helper-regex >
+          lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block > merkle-patricia-tree > ethereumjs-util > babelify > babel-core > babel-generator > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block >
+          merkle-patricia-tree > ethereumjs-util > babelify > babel-core >
+          babel-generator > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm > ethereumjs-block > ethereumjs-util > babelify > babel-core > babel-generator > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm >
+          ethereumjs-block > ethereumjs-util > babelify > babel-core >
+          babel-generator > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm > ethereumjs-block > ethereumjs-tx > ethereumjs-util > babelify > babel-core > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm >
+          ethereumjs-block > ethereumjs-tx > ethereumjs-util > babelify >
+          babel-core > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block > merkle-patricia-tree > ethereumjs-util > babelify > babel-core > babel-register > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block >
+          merkle-patricia-tree > ethereumjs-util > babelify > babel-core >
+          babel-register > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm > ethereumjs-block > ethereumjs-util > babelify > babel-core > babel-register > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm >
+          ethereumjs-block > ethereumjs-util > babelify > babel-core >
+          babel-register > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm > ethereumjs-block > ethereumjs-tx > ethereumjs-util > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-types > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm >
+          ethereumjs-block > ethereumjs-tx > ethereumjs-util >
+          babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping >
+          babel-types > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm > ethereumjs-block > ethereumjs-tx > ethereumjs-util > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm >
+          ethereumjs-block > ethereumjs-tx > ethereumjs-util >
+          babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping >
+          babel-traverse > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm > ethereumjs-block > ethereumjs-tx > ethereumjs-util > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-template > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm >
+          ethereumjs-block > ethereumjs-tx > ethereumjs-util >
+          babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping >
+          babel-template > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm > ethereumjs-block > ethereumjs-tx > ethereumjs-util > babel-preset-es2015 > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm >
+          ethereumjs-block > ethereumjs-tx > ethereumjs-util >
+          babel-preset-es2015 > babel-plugin-transform-es2015-classes >
+          babel-helper-define-map > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm > ethereumjs-block > ethereumjs-tx > ethereumjs-util > babel-preset-es2015 > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm >
+          ethereumjs-block > ethereumjs-tx > ethereumjs-util >
+          babel-preset-es2015 > babel-plugin-transform-es2015-sticky-regex >
+          babel-helper-regex > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm > ethereumjs-block > ethereumjs-tx > ethereumjs-util > babelify > babel-core > babel-generator > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm >
+          ethereumjs-block > ethereumjs-tx > ethereumjs-util > babelify >
+          babel-core > babel-generator > lodash
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm > ethereumjs-block > ethereumjs-tx > ethereumjs-util > babelify > babel-core > babel-register > lodash:
+        patched: '2023-11-27T14:50:25.224Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm >
+          ethereumjs-block > ethereumjs-tx > ethereumjs-util > babelify >
+          babel-core > babel-register > lodash
